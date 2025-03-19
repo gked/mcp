@@ -33,7 +33,7 @@ Severity: {props.get("severity", "Unknown")}
 Description: {props.get("description", "No description available")}
 Instructions: {props.get("instruction", "No instruction provided")}"""
 
-
+#
 @mcp.tool()
 async def get_alerts(location: str) -> str:
     """Get the alerts for a US state.
